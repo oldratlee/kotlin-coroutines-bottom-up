@@ -14,7 +14,7 @@ PS: My [Chinese translation](https://github.com/oldratlee/translations/blob/mast
 > The simple way to install required `JDK` is using [**_`SDKMAN`_**](https://sdkman.io/install):
 >
 > ```ruby
-> sdk install java 11.0.5.fx-zulu
+> sdk install java 11.0.11.fx-zulu
 > ```
 
 ## Run Server
