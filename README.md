@@ -14,17 +14,17 @@ PS: My [Chinese translation](https://github.com/oldratlee/translations/blob/mast
 > The simple way to install required `JDK` is using [**_`SDKMAN`_**](https://sdkman.io/install):
 >
 > ```ruby
-> sdk install java 11.0.11.fx-zulu
+> sdk install java 11.0.14.fx-zulu
 > ```
 
 ## Run Server
 
-```ruby
+```sh
 ./mvnw compile -pl server exec:java -Dexec.mainClass=com.oldratlee.demo.koroutines_bottom_up.server.ServerMainKt
 ```
 
 ## Run Client
 
-```ruby
+```sh
 ./mvnw compile -pl client exec:java -Dexec.mainClass=com.oldratlee.demo.koroutines_bottom_up.client.MyAppKt
 ```
