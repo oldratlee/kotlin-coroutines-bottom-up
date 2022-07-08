@@ -37,15 +37,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<kotlin.version>1.4.32</kotlin.version>
-		<kotlin.coroutine.version>1.5.1</kotlin.coroutine.version>
+
+		<kotlin.version>1.7.10</kotlin.version>
+		<kotlin.coroutine.version>1.6.3</kotlin.coroutine.version>
 		<http4k.version>3.285.2</http4k.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.jetbrains.kotlin</groupId>
-			<artifactId>kotlin-stdlib</artifactId>
+			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
 		<!-- Testing frameworks and related dependencies -->
 		<dependency>
