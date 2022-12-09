@@ -42,7 +42,7 @@
 		<kotlin.version>1.7.22</kotlin.version>
 		<kotlin.coroutine.version>1.6.4</kotlin.coroutine.version>
 
-		<http4k.version>4.34.2.0</http4k.version>
+		<http4k.version>4.34.3.0</http4k.version>
 	</properties>
 
 	<dependencies>
