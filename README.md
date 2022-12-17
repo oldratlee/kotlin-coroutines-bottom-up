@@ -1,6 +1,10 @@
+# A Bottom-Up View of Kotlin Coroutines
+
 <img src="kotlin-coroutines.png" vspace="10px" hspace="10px" align="right" width="25%" >
 
-# A Bottom-Up View of Kotlin Coroutines
+[![Github Workflow Build Status](https://img.shields.io/github/actions/workflow/status/oldratlee/kotlin-coroutines-bottom-up/ci.yaml?branch=master&logo=github&logoColor=white)](https://github.com/oldratlee/kotlin-coroutines-bottom-up/actions/workflows/ci.yaml)
+[![Java support](https://img.shields.io/badge/Java+fx-11+-green?logo=OpenJDK&logoColor=white)](https://openjdk.java.net/)
+[![License](https://img.shields.io/badge/license-Apache%202-4D7A97.svg?logo=Apache&logoColor=white)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 Complete runnable demo code of the article [A Bottom-Up View of Kotlin Coroutines](https://www.infoq.com/articles/kotlin-coroutines-bottom-up/) - _Garth Gilmour_ / _Eamonn Boyle_，2020-01-11.
 
