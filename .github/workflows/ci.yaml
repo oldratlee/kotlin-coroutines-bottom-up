@@ -2,13 +2,14 @@
 # https://docs.github.com/en/actions/quickstart
 
 name: CI
-on: [ push, pull_request ]
+on: [ push, pull_request, workflow_dispatch ]
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     strategy:
       matrix:
-        java: [ 11, 17, 18, 19 ]
+        java: [ 11, 17, 20 ]
       fail-fast: false
       max-parallel: 64
     name: Test JDK ${{ matrix.java }}
